@@ -91,7 +91,7 @@ a{
     text-align: center;
 }
 .registration-form{
-    background-color: lightblue;
+    background-image: linear-gradient(lightblue, lightpink);
     border-radius: 10px;
 }
 .form{
