@@ -1,11 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
-font-family: 'Prata', serif;
-font-weight: 700;
+    font-family: 'Prata', serif;
+    font-weight: 700;
+    width: 100%;
+}
+section{
+    margin: 30px 0 30px;
 }
 .first-heading{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Prata', serif;
     padding-left: 20px;
     font-size: 40px;
     font-weight: 700;
@@ -13,7 +15,7 @@ font-weight: 700;
     border-image:linear-gradient(tomato, orange);
     border-image-slice: 1;
 }
-.mission{
+.heading-mission{
     color: rgb(243, 169, 31);
 }
 .first-section{
@@ -35,5 +37,32 @@ a{
     background-image: linear-gradient(tomato, orange);
 }
 .scrole-text{
-    margin-top: 50px;
+    margin-top: 70px;
+}
+.second-section-heading{
+    font-size: 40px;
+    text-align: center;
+}
+.mission-section-elements{
+    display: flex;
+    margin-left: 50px;
+}
+.elements{
+    width: 25%;
+    margin: 20px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 15px;
+
+}
+.elements img{
+    width: 30%;
+}
+#mission{
+    background-color: #D6EAF8;
+}
+#vission{
+    background-color: #F2D7D5 ;
+}
+#goals{
+    background-color: #FCF3CF  ;
 }
