@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Prata', serif;
+font-weight: 700;
+}
+.first-heading{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    border-left: 5px solid;
+    border-image:linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.mission{
+    color: rgb(243, 169, 31);
+}
+.first-section{
+    display: flex;
+}
+.section-item{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.section-item img{
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, orange);
+}
+.scrole-text{
+    margin-top: 50px;
+}
