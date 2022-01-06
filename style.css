@@ -2,21 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Prata', serif;
     font-weight: 700;
-    width: 100%;
 }
 section{
-    margin: 30px 0 30px;
-}
-.first-heading{
-    padding-left: 20px;
-    font-size: 40px;
-    font-weight: 700;
-    border-left: 5px solid;
-    border-image:linear-gradient(tomato, orange);
-    border-image-slice: 1;
-}
-.heading-mission{
-    color: rgb(243, 169, 31);
+    margin: 30px 0 80px 0;
 }
 .first-section{
     display: flex;
@@ -24,10 +12,30 @@ section{
 .section-item{
     width: 50%;
     margin-top: 20px;
-    margin-left: 50px;
+    padding-left: 50px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.first-heading{
+    padding: 20px;
+    border-left: 5px solid;
+    border-image:linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.heading-mission{
+    color: rgb(243, 169, 31);
 }
 .section-item img{
     width: 70%;
+    margin-left:50px;
 }
 a{
     text-decoration: none;
@@ -38,6 +46,7 @@ a{
 }
 .scrole-text{
     margin-top: 70px;
+    margin-bottom: 50px ;
 }
 .second-section-heading{
     font-size: 40px;
@@ -65,4 +74,43 @@ a{
 }
 #goals{
     background-color: #FCF3CF  ;
+}
+.develop-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.community-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+.corona-heading{
+    text-align: center;
+}
+.registration-form{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.form{
+    text-align: center;
+}
+.label{
+    padding: 20px 20px 20px 10px;
+}
+.fullname{
+    float: left;
+}
+.submit{
+    margin: 40px;
+    text-align: center;
+}
+footer{
+    padding: 20px;
+    background-color: #2D2D2C;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
